@@ -1,0 +1,18 @@
+/*---------------Icon Section
+------------------------------------------------------------*/
+@media screen and (min-width: 600px){
+	.icons--animation{
+		animation-name: icons--zoomout;
+		animation-direction: alternate;
+		animation-duration: 1s;
+		animation-delay: 2s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes icons--zoomout{
+		0%{font-size: 0px;}
+		50%{font-size: 50px; color: black;}
+		100%{font-size: 40px;}
+		
+	}
+}

@@ -1,0 +1,30 @@
+.about{
+
+    &__box{
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+    }
+    &__img{
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    }
+
+
+    @media screen and (max-width: 600px){
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;}
+    }
+}
+
+.about > hr{
+	border: 1px solid $secondary--color;
+	width: 50%;
+	margin-bottom: 60px;
+}
+
+
